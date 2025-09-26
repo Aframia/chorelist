@@ -1,0 +1,68 @@
+body{
+    padding:0;
+    margin:0;
+}
+h1{
+    font-size:2.5rem;
+    text-align: center;
+    height:50px;
+    font-family: tahoma;
+    font-weight: 400;
+    color: rgb(242, 117, 72);
+    
+}
+form{
+    margin-top: 20px;
+    display:flex;
+    gap:5px;
+    justify-content: center;
+    color: black;
+}
+input{
+    border:none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:beige;
+    padding:10px 5px;
+    border-radius: 10px;
+    width: 60%;
+}
+button{
+    padding:10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#add {
+    background-color: rgb(242, 117, 72);
+    color:aliceblue;
+}
+#remove{
+    background-color: brown;
+    color: aliceblue;
+}
+#remove-chore{
+    color: gray;
+    font-size: 0.8rem;
+    margin-right: 30px;
+}
+.chore-text{
+    margin-left: 40px;
+}
+#chores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap:10px;
+}
+.chore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 233, 103);
+    text-align: center;
+    font-size:1.5rem;
+    width:90%;
+    border-radius: 10px;
+}

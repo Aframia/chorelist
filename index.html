@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Chores4TheDay</title>
 </head>
 <body>
-    <h1>Chores For Today</h1>
+    <h1>Chores 4 Today</h1>
+    <hr>
     <form>
         <input 
         type="text"
@@ -14,8 +16,12 @@
         placeholder="Do Laundry"
         required
         >
-        <button type="submit">➕</button>
-        <button>×</button>
+        <button type="submit" id="add" data-add="1">+</button>
+        <button id="remove" data-remove="2">×</button>
     </form>
+    <div id="chores">
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
