@@ -7,21 +7,35 @@
     <title>Chores4TheDay</title>
 </head>
 <body>
+    <div id="overlay">
+        <form id="overlay-form">
+            <label for="name">What's your name?</label>
+         <input
+         id="name"
+         name="name"
+         placeholder="Sandra Ofosu"
+         required>
+         <button type="submit">Save</button>
+        </form>
+    </div>
     <h1>Chores 4 Today</h1>
     <hr>
-    <form>
+    <p id="greeting" class="greeting"> </p>
+    <form class="chore-form">
+         
         <input 
+        id="chore-input"
         type="text"
         name="chore"
         placeholder="Do Laundry"
         required
         >
-        <button type="submit" id="add" data-add="1">+</button>
-        <button id="remove" data-remove="2">×</button>
+        <button type="submit" id="add" data-add="true">+</button>
+        <button id="remove" data-remove="true">×</button>
     </form>
     <div id="chores">
 
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
